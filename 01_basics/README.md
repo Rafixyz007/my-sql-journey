@@ -14,7 +14,8 @@ This is the foundation for all future SQL topics.
 ---
 
 ### Files in this folder
-- `select_queries.sql` – basic SELECT queries using the `customers` table
+- [`select_queries.sql`](select_queries.sql) – basic SELECT queries using the `customers` table
+
 
 ---
 
