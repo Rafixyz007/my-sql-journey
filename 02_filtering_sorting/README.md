@@ -12,8 +12,8 @@ Key topics:
 ---
 
 ### Files in this folder
-- `where_queries.sql` – filtering data using WHERE
-- `order_by_queries.sql` – sorting data using ORDER BY
+- [`where_queries.sql`](where_queries.sql) – filtering data using WHERE
+- [`order_by_queries.sql`](order_by_queries.sql) – sorting data using ORDER BY
 
 ---
 
