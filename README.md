@@ -1,6 +1,7 @@
-# SQL Journey 🚀
+<h1 align="center">SQL Journey</h1>
 
 Welcome to my **SQL Journey** repository.
+
 
 This repository documents my step-by-step progress in learning **SQL**, starting from core fundamentals and gradually moving toward more advanced concepts. Everything here is written with a focus on **clarity, practice, and real-world understanding**.
 
@@ -8,7 +9,7 @@ This is a **living repository** and will be updated regularly as I continue lear
 
 ---
 
-## 🎯 Purpose of This Repository
+## Purpose of This Repository
 
 * Build a strong foundation in SQL
 * Practice queries using real tables and scenarios
@@ -29,7 +30,7 @@ This is a **living repository** and will be updated regularly as I continue lear
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 sql-journey/
@@ -41,7 +42,7 @@ sql-journey/
 ├── 03_aggregations/       # GROUP BY, HAVING, DISTINCT
 ├── 04_ddl_dml/            # CREATE, ALTER, INSERT, UPDATE, DELETE
 ├── 05_joins/              # All types of JOINs
-├── 06_advanced/           # Advanced queries (ongoing)
+├── 06_set_operators/      # UNION, UNION ALL, EXCEPT, INTERSECT
 ```
 
 Each folder contains:
@@ -51,7 +52,7 @@ Each folder contains:
 
 ---
 
-## 📘 Topics Covered So Far
+##  Topics Covered So Far
 
 * Basic SQL queries (`SELECT`)
 * Filtering data (`WHERE`, logical operators)
@@ -71,10 +72,15 @@ Each folder contains:
   * Anti Joins
   * CROSS JOIN
 * Multi-table joins using the `Sales` schema
+* Set Operators:
+
+  * UNION, UNION ALL
+  * EXCEPT
+  * INTERSECT
 
 ---
 
-## 🧠 Learning Approach
+##  Learning Approach
 
 * Concepts are practiced using simple examples first
 * Queries are written clearly for readability
@@ -83,9 +89,8 @@ Each folder contains:
 
 ---
 
-## 🔜 What’s Coming Next
+##  What’s Coming Next
 
-* Set Operators (`UNION`, `INTERSECT`, `EXCEPT`)
 * Subqueries
 * Common Table Expressions (CTEs)
 * Window Functions
@@ -94,7 +99,7 @@ Each folder contains:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * This repository is updated **day by day**
 * Mistakes and improvements are part of the learning process
@@ -102,11 +107,11 @@ Each folder contains:
 
 ---
 
-⭐ If you find this repository helpful, feel free to star it!
+ If you find this repository helpful, feel free to star it!
 
 ---
 
-## 🗂️ Folder Mapping (Based on Current Progress)
+##  Folder Mapping (Based on Current Progress)
 
 Below is how your **existing SQL queries** should be organized into folders. This keeps the repo clean and easy to navigate.
 
@@ -140,62 +145,5 @@ sql-journey/
 │   ├── basic_joins.sql
 │   ├── anti_joins.sql
 │   ├── cross_join.sql
-│   └── sales_schema_joins.sql
-│
-├── 06_advanced/
-│   └── README.md
+
 ```
-
----
-
-## 📄 Section README Template
-
-Use the following template inside **each folder** to keep everything consistent and professional.
-
-```md
-## Topic Name
-
-### What this section covers
-Brief explanation of the topic and why it is important in SQL.
-
-### Files in this folder
-- `file_name.sql` – short explanation of what this file contains
-
-### Key Concepts
-- Concept 1
-- Concept 2
-- Concept 3
-```
-
----
-
-## 📌 Example: `05_joins/README.md`
-
-```md
-## Joins
-
-### What this section covers
-This section focuses on combining data from multiple tables using different types of JOINs.
-
-### Files in this folder
-- `basic_joins.sql` – INNER, LEFT, RIGHT, FULL joins
-- `anti_joins.sql` – finding missing records
-- `cross_join.sql` – cartesian joins
-- `sales_schema_joins.sql` – real-world multi-table joins
-
-### Key Concepts
-- Table relationships
-- Foreign keys
-- Join conditions
-```
-
----
-
-## 🚀 How to Continue Updating This Repo
-
-1. Learn a new SQL topic
-2. Create or update a `.sql` file in the correct folder
-3. Add notes or examples to that folder’s `README.md`
-4. (Optional) Update the "Topics Covered" section above
-
-This keeps your progress visible and well-organized.
