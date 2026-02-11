@@ -13,8 +13,8 @@ There are two main categories:
 ---
 
 ### Files in this folder
-- `ddl.sql` – CREATE, ALTER, DROP
-- `dml.sql` – INSERT, UPDATE, DELETE, TRUNCATE
+- [`ddl.sql`](ddl.sql) – CREATE, ALTER, DROP
+- [`dml.sql`](dml.sql) – INSERT, UPDATE, DELETE, TRUNCATE
 
 ---
 
