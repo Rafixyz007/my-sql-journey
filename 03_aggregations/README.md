@@ -15,9 +15,9 @@ Key topics:
 ---
 
 ### Files in this folder
-- [`group_by.sql`](distinct_top.sql) – grouping data and aggregate functions
-- [`having.sql`](group_by.sql) – filtering grouped results
-- [`distinct_top.sql`](having.sql) – removing duplicates and limiting results
+- [`group_by.sql`](group_by.sql) – grouping data and aggregate functions
+- [`having.sql`](having.sql) – filtering grouped results
+- [`distinct_top.sql`](distinct_top.sql) – removing duplicates and limiting results
 
 ---
 
