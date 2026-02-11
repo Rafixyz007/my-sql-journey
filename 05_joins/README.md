@@ -8,10 +8,10 @@ Joins are essential when working with relational databases because data is usual
 ---
 
 ### Files in this folder
-- `basic_joins.sql` – INNER, LEFT, RIGHT, FULL joins
-- `anti_joins.sql` – finding missing or unmatched records
-- `cross_join.sql` – cartesian joins
-- `sales_schema_joins.sql` – multi-table join example using Sales schema
+- [`basic_joins.sql`](basic_joins.sql) – INNER, LEFT, RIGHT, FULL joins
+- [`anti_joins.sql`](anti_joins.sql) – finding missing or unmatched records
+- [`cross_join.sql`](cross_join.sql) – cartesian joins
+- [`sales_schema_joins.sql`](sales_schema_joins.sql) – multi-table join example using Sales schema
 
 ---
 
