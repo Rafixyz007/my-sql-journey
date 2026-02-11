@@ -21,7 +21,7 @@ Set operators are useful when:
 
 <h2 align="center">Files in this folder</h2>
 
-* `set_operators.sql` – examples using SalesDB
+* [`set_operators.sql`](set_operators.sql) – examples using SalesDB
 
 ---
 
