@@ -43,6 +43,8 @@ sql-journey/
 ├── 04_ddl_dml/            # CREATE, ALTER, INSERT, UPDATE, DELETE
 ├── 05_joins/              # All types of JOINs
 ├── 06_set_operators/      # UNION, UNION ALL, EXCEPT, INTERSECT
+├── 07_date_and_time_functions/ # GETDATE, DATEPART, DATENAME, DATETRUNC, EOMONTH
+
 ```
 
 Each folder contains:
@@ -54,29 +56,59 @@ Each folder contains:
 
 ##  Topics Covered So Far
 
-* Basic SQL queries (`SELECT`)
-* Filtering data (`WHERE`, logical operators)
-* Sorting results (`ORDER BY`)
-* Aggregate functions (`SUM`, `COUNT`, `AVG`)
-* Grouping data (`GROUP BY`, `HAVING`)
-* Removing duplicates (`DISTINCT`)
-* Limiting results (`TOP`)
-* DDL operations (`CREATE`, `ALTER`, `DROP`)
-* DML operations (`INSERT`, `UPDATE`, `DELETE`, `TRUNCATE`)
-* Pattern matching (`LIKE`)
-* Table relationships and joins:
+Basic SQL queries (SELECT)
 
-  * INNER JOIN
-  * LEFT / RIGHT JOIN
-  * FULL JOIN
-  * Anti Joins
-  * CROSS JOIN
-* Multi-table joins using the `Sales` schema
-* Set Operators:
+Filtering data (WHERE, logical operators)
 
-  * UNION, UNION ALL
-  * EXCEPT
-  * INTERSECT
+Sorting results (ORDER BY)
+
+Aggregate functions (SUM, COUNT, AVG)
+
+Grouping data (GROUP BY, HAVING)
+
+Removing duplicates (DISTINCT)
+
+Limiting results (TOP)
+
+DDL operations (CREATE, ALTER, DROP)
+
+DML operations (INSERT, UPDATE, DELETE, TRUNCATE)
+
+Pattern matching (LIKE)
+
+Table relationships and joins:
+
+INNER JOIN
+
+LEFT / RIGHT JOIN
+
+FULL JOIN
+
+Anti Joins
+
+CROSS JOIN
+
+Multi-table joins using the Sales schema
+
+Set Operators:
+
+UNION, UNION ALL
+
+EXCEPT
+
+INTERSECT
+
+Date and Time Functions:
+
+GETDATE, YEAR, MONTH, DAY
+
+DATEPART, DATENAME
+
+DATETRUNC, EOMONTH
+
+FORMAT, CONVERT, CAST
+
+DATEADD, DATEDIFF, ISDATE
 
 ---
 
@@ -144,6 +176,15 @@ sql-journey/
 │   ├── README.md
 │   ├── basic_joins.sql
 │   ├── anti_joins.sql
-│   ├── cross_join.sql
+│   └── cross_join.sql
+│
+├── 06_set_operators/
+│   ├── README.md
+│   └── set_operators.sql
+│
+├── 07_date_and_time_functions/
+│   ├── README.md
+│   └── date_and_time_functions.sql
+
 
 ```
