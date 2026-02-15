@@ -28,7 +28,7 @@ They help extract specific parts of a date, perform calculations between dates, 
 
 <h2 align="center">Files in this folder</h2>
 
-* `date_and_time_functions.sql` – examples using SalesDB
+* [`date_and_time_functions.sql`](date_and_time_functions.sql) – examples using SalesDB
 
 ---
 
